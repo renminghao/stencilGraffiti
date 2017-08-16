@@ -5,7 +5,8 @@ var autoprefixer = require('autoprefixer')
 module.exports = {
   context : process.cwd(),
   entry : {
-    index : './lib/index.js'
+    person : './lib/index.js',
+    bird : './lib/bird.js'
   },
   output : {
     filename : '[name].js',
